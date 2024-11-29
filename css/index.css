@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: hsl(107, 0%, 94%);
+}
+
+.head_text {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  height: auto;
+  width: 600px;
+  display: flex;
+  margin-top: 150px;
+  padding: 10px;
+  margin-left: 500px;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: #cca42a;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.add-task {
+  margin: 10px 10px;
+}
+
+.update p {
+  margin: 10px 10px;
+  display: inline;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.task {
+  margin-left: 30px;
+}
+
+#task_input {
+  width: 450px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: hsl(107, 0%, 94%);
+}
+
+#add-btn {
+  padding: 8px;
+  border: 0.1px solid hsl(150, 0%, 68%);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-group {
+  margin: 15px 10px;
+}
+
+.btn {
+  width: 80px;
+  border: none;
+  padding: 4px;
+  border-radius: 20px;
+  background-color: hsl(107, 0%, 94%);
+}
+
+.main {
+  text-decoration: line-through;
+  color: hsl(107, 0%, 54%);
+}
+
+ul li span {
+  width: 500px;
+}
+
+ul li {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+ul li button {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  margin-right: 30px;
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  background-color: #cca42a;
+}
